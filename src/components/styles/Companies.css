@@ -1,0 +1,49 @@
+.logo {
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 100px;
+  width: 20%;
+  background-color: white;
+}
+
+.logo p {
+  font-weight: 700;
+  font-size: larger;
+  color: white;
+  padding-left: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.item:nth-child(odd) {
+  background-color: #740753;
+}
+
+.key {
+  text-transform: capitalize;
+}
+
+.info .item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info .item:last-child,
+.info .item:nth-child(22) {
+  display: none;
+}

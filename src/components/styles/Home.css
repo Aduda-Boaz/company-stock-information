@@ -1,0 +1,72 @@
+.homeTopSection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+}
+
+.homeTopSection ul {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeTopSection ul img {
+  height: 50px;
+  width: 50px;
+}
+
+.homeTopSection li {
+  font-weight: 700;
+  font-size: larger;
+  list-style-type: none;
+}
+
+.search-bar input,
+.search-bar select {
+  border: none;
+  padding-left: 1%;
+  height: 30px;
+}
+
+.search-bar input {
+  width: 50%;
+}
+
+.search-bar select {
+  width: 50%;
+  background-color: #740753;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards a {
+  width: 50%;
+  text-decoration: none;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.cards li {
+  color: white;
+  list-style-type: none;
+  font-weight: 300;
+}
+
+.cards .companyName {
+  font-weight: 700;
+}
+
+.cards a:nth-child(4n+1),
+.cards a:nth-child(4n+4) {
+  background-color: #740753;
+}
