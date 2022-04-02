@@ -15,8 +15,8 @@ You can see [the app live here](https://stock-metrics-app.netlify.app/)
 ### Clone this repository
 
 ```bash
-git clone https://github.com/Aduda-Boaz/stock-tracker
-cd space-traveller-hub
+git clone https://github.com/Aduda-Boaz/company-stock-information
+cd company-stock-information
 ```
 
 ### Run project
