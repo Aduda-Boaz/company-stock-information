@@ -48,7 +48,7 @@ npm run test
 
 - GitHub: [@Aduda-Boaz](https://github.com/Aduda-Boaz)
 - Twitter: [@BoazAduda](https://twitter.com/BoazAduda)
-- LinkedIn: [sahar-abdel-samad](https://www.linkedin.com/in/boaz-aduda/)
+- LinkedIn: [Boaz Aduda](https://www.linkedin.com/in/boaz-aduda/)
 
 ## 🤝 Contributing
 
